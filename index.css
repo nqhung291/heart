@@ -8,7 +8,7 @@ body {
 .box {
   width: 100%;
   position: absolute;
-  top: 54%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -84,7 +84,7 @@ canvas.heart2 {
 .text-wrapper {
   font-family: "Sacramento", sans-serif;
   position: absolute;
-  top: 0px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 99;
@@ -100,11 +100,11 @@ h2 {
 h1 {
   font-size: 50px;
   animation: pulsate 1.5s infinite alternate;
-  /* border: 0.2rem solid #fff; */
-  /* border-radius: 2rem; */
-  padding: 0.4em;
-  /* box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, */
-    /* 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe; */
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.6em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }
 
 @keyframes pulsate {

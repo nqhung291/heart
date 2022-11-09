@@ -3,8 +3,6 @@ var canvas = document.getElementById("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-console.log(canvas.width, canvas.height);
-
 // Initialize the GL context
 var gl = canvas.getContext("webgl");
 if (!gl) {

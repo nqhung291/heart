@@ -261,3 +261,9 @@ var ParticlePool = (function () {
     render();
   }, 10);
 })(document.getElementById("pinkboard"));
+
+setTimeout(() => {
+  const e = document.getElementById("pinkboard");
+  e.style.width = "600px";
+  e.style.height = "600px";
+}, 100);
